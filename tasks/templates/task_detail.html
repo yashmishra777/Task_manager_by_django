@@ -1,0 +1,6 @@
+<h2>Task Detail</h2>
+<p><strong>Title:</strong> {{ task.title }}</p>
+<p><strong>Description:</strong> {{ task.description }}</p>
+<p><strong>Due Date:</strong> {{ task.due_date }}</p>
+<p><strong>Completed:</strong> {{ task.is_completed }}</p>
+<a href="{% url 'task_list' %}">Back</a>
